@@ -40,7 +40,7 @@ export const locations = ["Dhaka", "Mirpur", "Gulshan", "Chittagong", "Sylhet", 
 export const mockSellers: Seller[] = [
   { id: "s1", name: "Rahim Uddin", shopName: "Rahim's Kitchen", phone: "01711000001", area: "Dhanmondi", category: "Rice", status: "Approved" },
   { id: "s2", name: "Fatema Begum", shopName: "Fatema's Foodies", phone: "01711000002", area: "Gulshan", category: "Snacks", status: "Approved" },
-  { id: "s3", name: "Karim Ali", shopName: "Karim Bhai Biryani", shopName2: "", phone: "01711000003", area: "Mirpur", category: "Curry", status: "Pending" } as any,
+  { id: "s3", name: "Karim Ali", shopName: "Karim Bhai Biryani", phone: "01711000003", area: "Mirpur", category: "Curry", status: "Pending" },
 ];
 
 export const mockDishes: Dish[] = [
